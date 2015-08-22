@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		
+		<property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+		<property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/postgres</property>
+		<property name="hibernate.connection.username">postgres</property>
+		<property name="hibernate.connection.password">postgres</property>
+		<!--JDBC Connection Pool -->
+		<property name="connection.pool_size">1</property>
+		<!--SQL Dialect -->
+		<property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+		<!--  Echo all executed SQL to stdout -->
+		<property name="show_sql">true</property>
+		
+		<!--Disable the Second level Cache -->
+		<property name="cache.provider_class">org.hibernateorg.hibernate.cache.NoCachingEnabledException</property>
+		<property name="hbm2ddl.auto">create</property>
+	
+		<!-- Name the annotated entity class -->
+		<mapping class="org.rest.model.User"/>
+		
+
+	</session-factory>
+</hibernate-configuration>
