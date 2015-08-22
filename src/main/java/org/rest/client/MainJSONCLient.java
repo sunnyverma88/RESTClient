@@ -15,7 +15,7 @@ import org.hibernate.service.ServiceRegistryBuilder;
 import org.rest.model.User;
 import org.rest.parser.JsonParserClass;
 
-public class MainCLient {
+public class MainJSONCLient {
 
 	public static final String REST_URL="http://jsonplaceholder.typicode.com/posts";
 	public static final int OK_STATUS=Response.Status.OK.getStatusCode();
