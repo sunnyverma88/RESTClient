@@ -1,21 +1,11 @@
 package org.rest.parser;
 
-import java.io.InputStream;
-import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-
-import javax.json.Json;
-import javax.json.stream.JsonParser;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.rest.model.User;
-
-import com.codesnippets4all.json.parsers.JSONParser;
-import com.codesnippets4all.json.parsers.JsonParserFactory;
 
 
 public class JsonParserClass {
