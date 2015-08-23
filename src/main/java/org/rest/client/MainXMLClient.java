@@ -15,7 +15,6 @@ import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 import org.rest.model.Holiday;
 import org.rest.model.User;
-import org.rest.parser.JsonParserClass;
 import org.rest.parser.XMLParser;
 
 import generated.NewDataSet.Holidays;
@@ -61,11 +60,8 @@ public class MainXMLClient {
 			hldy.setDate(s);
 			hldy.setName(h.getName());
 			hldy.setKey(h.getKey());
-			
 			session.save(hldy);
-			
 			}
-    	 
      }
      else
      {
