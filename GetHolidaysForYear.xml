@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://tempuri.org/">
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Holidays">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Key" type="xs:string" minOccurs="0" />
+                <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+    <NewDataSet xmlns="">
+      <Holidays diffgr:id="Holidays1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+        <Name>New Year's Day</Name>
+        <Key>NEW_YEARS</Key>
+        <Date>2015-01-01T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+        <Name>Martin Luther King's Birthday</Name>
+        <Key>MLK</Key>
+        <Date>2015-01-15T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+        <Name>Abraham Lincoln's Birthday</Name>
+        <Key>ABRAHAM_LINCOLN_BDAY</Key>
+        <Date>2015-02-12T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays4" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+        <Name>Valentine's Day</Name>
+        <Key>VALENTINES</Key>
+        <Date>2015-02-14T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays5" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+        <Name>President's Day</Name>
+        <Key>PRESIDENTS_DAY</Key>
+        <Date>2015-02-16T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays6" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+        <Name>George Washington's Birthday</Name>
+        <Key>GEORGE_WASHINGTON_BDAY</Key>
+        <Date>2015-02-22T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays7" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+        <Name>St. Patrick's Day</Name>
+        <Key>ST_PATRICKS_DAY</Key>
+        <Date>2015-03-17T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays8" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+        <Name>April Fools Day</Name>
+        <Key>APRIL_FOOLS</Key>
+        <Date>2015-04-01T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays9" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+        <Name>Good Friday</Name>
+        <Key>GOOD_FRIDAY</Key>
+        <Date>2015-04-03T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays10" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+        <Name>Easter</Name>
+        <Key>EASTER</Key>
+        <Date>2015-04-05T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays11" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+        <Name>Cinco de Mayo</Name>
+        <Key>CINCO_DE_MAYO</Key>
+        <Date>2015-05-05T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays12" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+        <Name>Mother's Day</Name>
+        <Key>MOTHERS</Key>
+        <Date>2015-05-10T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays13" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+        <Name>Memorial Day</Name>
+        <Key>MEMORIAL</Key>
+        <Date>2015-05-25T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays14" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+        <Name>Flag Day</Name>
+        <Key>FLAG</Key>
+        <Date>2015-06-14T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays15" msdata:rowOrder="14" diffgr:hasChanges="inserted">
+        <Name>Father's Day</Name>
+        <Key>FATHERS</Key>
+        <Date>2015-06-21T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays16" msdata:rowOrder="15" diffgr:hasChanges="inserted">
+        <Name>Independence Day</Name>
+        <Key>INDEPENDENCE</Key>
+        <Date>2015-07-04T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays17" msdata:rowOrder="16" diffgr:hasChanges="inserted">
+        <Name>Labor Day</Name>
+        <Key>LABOR</Key>
+        <Date>2015-09-07T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays18" msdata:rowOrder="17" diffgr:hasChanges="inserted">
+        <Name>Columbus Day</Name>
+        <Key>COLUMBUS</Key>
+        <Date>2015-10-12T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays19" msdata:rowOrder="18" diffgr:hasChanges="inserted">
+        <Name>Halloween</Name>
+        <Key>HALLOWEEN</Key>
+        <Date>2015-10-31T00:00:00-04:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays20" msdata:rowOrder="19" diffgr:hasChanges="inserted">
+        <Name>Veteran's Day</Name>
+        <Key>VETERANS</Key>
+        <Date>2015-11-11T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays21" msdata:rowOrder="20" diffgr:hasChanges="inserted">
+        <Name>Thanksgiving</Name>
+        <Key>THANKSGIVING</Key>
+        <Date>2015-11-26T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays22" msdata:rowOrder="21" diffgr:hasChanges="inserted">
+        <Name>Black Friday</Name>
+        <Key>BLACK_FRIDAY</Key>
+        <Date>2015-11-27T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays23" msdata:rowOrder="22" diffgr:hasChanges="inserted">
+        <Name>Christmas</Name>
+        <Key>CHRISTMAS</Key>
+        <Date>2015-12-25T00:00:00-05:00</Date>
+      </Holidays>
+      <Holidays diffgr:id="Holidays24" msdata:rowOrder="23" diffgr:hasChanges="inserted">
+        <Name>New Year's Eve</Name>
+        <Key>NEW_YEARS_EVE</Key>
+        <Date>2015-12-31T00:00:00-05:00</Date>
+      </Holidays>
+    </NewDataSet>
+  </diffgr:diffgram>
+</DataSet>

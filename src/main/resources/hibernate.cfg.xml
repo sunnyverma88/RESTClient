@@ -22,6 +22,7 @@
 	
 		<!-- Name the annotated entity class -->
 		<mapping class="org.rest.model.User"/>
+		<mapping class="org.rest.model.Holiday"/>
 		
 
 	</session-factory>
