@@ -51,16 +51,20 @@ public class JSONWeatherClient {
 			// Another way to call the service --IMPORTANT
 			/*
 			 * con = (HttpURLConnection) ( new URL(BASE_URL +
-			 * location)).openConnection(); con.setRequestMethod("GET");
-			 * con.setDoInput(true); con.setDoOutput(true); con.connect(); URL
-			 * ul=new URL(BASE_URL + location); String s1=ul.toString();
+			 * location)).openConnection(); 
+			 * con.setRequestMethod("GET");
+			 * con.setDoInput(true); 
+			 * con.setDoOutput(true); 
+			 * con.connect(); 
+			 * URL ul=new URL(BASE_URL + location); 
+			 * String s1=ul.toString();
 			 * System.out.println(s1);
 			 */
 
 			// Let's read the response
 			/*
-			 * StringBuffer buffer = new StringBuffer(); is =
-			 * con.getInputStream(); String s=getStringFromInputStream(is);
+			 * StringBuffer buffer = new StringBuffer(); 
+			 * is =con.getInputStream(); String s=getStringFromInputStream(is);
 			 * System.out.println(s);
 			 */
 
